@@ -72,6 +72,33 @@ namespace StackUsingSingleLinkList
                 Console.WriteLine("\nEnter your choice: ");
                 string Input = Console.ReadLine();
                 char ch = Convert.ToChar(Input == ""? "0" : Input);
+                switch (ch)
+                {
+                    case '1':
+                        Console.WriteLine("\nEnter a number : ");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        S.push(num);    
+                        break;
+
+                    case '2':
+                        if (S.empty())
+                        {
+                            Console.WriteLine("\nStack empty");
+                            break;
+                        }
+                        S.pop();
+                        break;
+
+                    case '3':
+                        S.display();
+                        break;
+
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
+                }
 
 
             }
