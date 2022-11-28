@@ -31,6 +31,10 @@ namespace StackUsingSingleLinkList
                 return (false);
         }
     }
+    public void push(int element)
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
