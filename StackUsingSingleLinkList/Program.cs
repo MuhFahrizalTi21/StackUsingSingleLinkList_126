@@ -8,7 +8,8 @@ namespace StackUsingSingleLinkList
 {
     class node
     {
-        
+        public int info;
+        public node next;
     }
     internal class Program
     {
