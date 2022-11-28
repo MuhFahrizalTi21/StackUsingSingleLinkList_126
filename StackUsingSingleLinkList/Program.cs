@@ -18,7 +18,11 @@ namespace StackUsingSingleLinkList
     }
     class Stack
     {
-        
+        node top;
+        public Stack()
+        {
+            top = null;
+        }
     }
     internal class Program
     {
