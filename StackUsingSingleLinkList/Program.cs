@@ -47,22 +47,24 @@ namespace StackUsingSingleLinkList
         public void display()
         {
             node tmp;
-            if(empty())
+            if (empty())
                 Console.WriteLine("\nStack Empty");
             else
             {
-                for(tmp  =top; tmp != null; tmp = tmp.next)
+                for (tmp = top; tmp != null; tmp = tmp.next)
                 {
                     Console.WriteLine(tmp.info);
                 }
             }
         }
-    }
-   
-    internal class Program
-    {
+
         static void Main(string[] args)
         {
+            Stack S = new Stack();
+            while (true)
+            {
+
+            }
         }
     }
 }
