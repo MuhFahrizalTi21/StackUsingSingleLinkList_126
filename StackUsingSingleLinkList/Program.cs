@@ -70,7 +70,8 @@ namespace StackUsingSingleLinkList
                 Console.WriteLine("3. Display");
                 Console.WriteLine("4. Exit ");
                 Console.WriteLine("\nEnter your choice: ");
-
+                string Input = Console.ReadLine();
+                char ch = Convert.ToChar(Input == ""? "0" : Input);
 
 
             }
