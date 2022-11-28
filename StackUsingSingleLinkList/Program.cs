@@ -39,6 +39,11 @@ namespace StackUsingSingleLinkList
             top = fresh;
             Console.WriteLine("\n" + element + "pushed");
         }
+        public void pop()
+        {
+            Console.WriteLine("\n The poped elemnts is: " + top.info);
+            top = top.next;
+        }
     }
    
     internal class Program
